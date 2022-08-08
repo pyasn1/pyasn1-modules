@@ -16,6 +16,9 @@ If ASN.1 module you need is not present in this collection, try using
 [Asn1ate](https://github.com/kimgr/asn1ate) tool that compiles ASN.1 documents
 into pyasn1 code.
 
+**NOTE:** The package is now maintained by *Christian Heimes* and
+*Simon Pichugin* in project https://github.com/pyasn1/pyasn1-modules.
+
 Feedback
 --------
 
