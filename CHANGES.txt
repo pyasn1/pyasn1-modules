@@ -1,5 +1,5 @@
-Revision 0.3.0, released XX-08-2028
------------------------------------
+Revision 0.3.0.rc1, released 08-08-2022
+---------------------------------------
 
 - Added support for Python 3.8, 3.9, 3.10, 3.11
 - Removed support for EOL Pythons 2.4, 2.5, 2.6, 3.2, 3.3, 3.4, 3.5
@@ -7,6 +7,11 @@ Revision 0.3.0, released XX-08-2028
 - Modernized packaging and testing. pyasn1-modules now uses ``setup.cfg``,
   ``pyproject.toml``, [build](https://pypi.org/project/build/), and
   GitHub Actions.
+- PyPI package ownership for `pyasn` and `pyasn-module` has been
+  transfered to *Christian Heimes* and *Simon Pichugin* in
+  [PyPI support ticket #2090](https://github.com/pypa/pypi-support/issues/2090).
+- The upstream repositories for `pyasn1` and `pyasn1-modules` are now
+  in the GitHub organization https://github.com/pyasn1/.
 - Added tox runner with a handful of basic jobs
 - Add RFC3125 providing Electronic Signature Policies
 - Add RFC5126 providing CMS Advanced Electronic Signatures (CAdES)
