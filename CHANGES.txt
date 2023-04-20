@@ -1,4 +1,4 @@
-Revision 0.3.0.rc1, released 08-08-2022
+Revision 0.3.0, released 19-04-2023
 ---------------------------------------
 
 - Added support for Python 3.8, 3.9, 3.10, 3.11
