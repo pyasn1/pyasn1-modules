@@ -6,6 +6,7 @@ ASN.1 modules for Python
 [![Build status](https://github.com/pyasn1/pyasn1-modules/actions/workflows/main.yml/badge.svg)](https://github.com/pyasn1/pyasn1-modules/actions/workflows/main.yml)
 [![Coverage Status](https://img.shields.io/codecov/c/github/pyasn1/pyasn1-modules.svg)](https://codecov.io/github/pyasn1/pyasn1-modules)
 [![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/pyasn1/pyasn1-modules/master/LICENSE.txt)
+[![pyasn1-modules Downloads Last Month](https://assets.piptrends.com/get-last-month-downloads-badge/pyasn1-modules.svg 'pyasn1-modules Downloads Last Month by pip Trends')](https://piptrends.com/package/pyasn1-modules)
 
 The `pyasn1-modules` package contains a collection of
 [ASN.1](https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.208-198811-W!!PDF-E&type=items)
