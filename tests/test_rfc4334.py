@@ -66,7 +66,7 @@ DAlVlhox680Jxy5J8Pkx
                 self.assertEqual(extn['extnValue'], der_encoder(extnValue))
 
                 if extn['extnID'] == rfc4334.id_pe_wlanSSID:
-                    self.assertIn( b'Example', extnValue)
+                    self.assertIn(b'Example', extnValue)
             
                 if extn['extnID'] == rfc5280.id_ce_extKeyUsage:
                     self.assertIn(rfc4334.id_kp_eapOverLAN, extnValue)

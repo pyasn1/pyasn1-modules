@@ -85,7 +85,8 @@ YIZIAWUCAQVCMRAEDnB0Zi1rZGMtODEyMzc0
             self.assertNotEqual('0x', attr['attrValues'][0].prettyPrint()[:2])
 
             if attr['attrType'] == rfc6032.id_aa_KP_contentDecryptKeyID:
-                self.assertEqual(b'ptf-kdc-812374', attr['attrValues'][0])
+                self.assertEqual(
+                    b'ptf-kdc-812374', attr['attrValues'][0])
 
 
 suite = unittest.TestLoader().loadTestsFromModule(sys.modules[__name__])
