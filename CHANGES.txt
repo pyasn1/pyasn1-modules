@@ -1,3 +1,9 @@
+Revision 0.4.2, released 27-03-2025
+---------------------------------------
+
+- Updated dependency constraint to be compatible with pyasn1 0.6.1, which
+  removed the pyasn1.compat.octets module
+
 Revision 0.4.1, released 10-09-2024
 ---------------------------------------
 
@@ -39,13 +45,13 @@ Revision 0.3.0, released 19-04-2023
 - Add RFC3537 providing HMAC Key Wrapping
 - Add RFC3739 providing Qualified Certificates
 - Add RFC2876 providing KEA and SKIPJACK for CMS
-- Add RFC3058 providing IDEA Encryption Algorithm for CMS 
-- Add RFC3657 providing Camellia Encryption Algorithm for CMS 
-- Add RFC4010 providing SEED Encryption Algorithm for CMS 
+- Add RFC3058 providing IDEA Encryption Algorithm for CMS
+- Add RFC3657 providing Camellia Encryption Algorithm for CMS
+- Add RFC4010 providing SEED Encryption Algorithm for CMS
 - Add RFC4357 providing Additional Cryptographic Algorithms for Use with
   GOST 28147-89, GOST R 34.10-94, GOST R 34.10-2001, and GOST R 34.11-94
 - Add RFC4490 providing GOST 28147-89, GOST R 34.11-94, GOST R 34.10-94,
-  and GOST R 34.10-2001 Algorithms for CMS 
+  and GOST R 34.10-2001 Algorithms for CMS
 - Add RFC4491 providing GOST R 34.10-94, GOST R 34.10-2001, and
   GOST R 34.11-94 Algorithms for certificates and CRLs
 - Add RFC8696 providing using Pre-Shared Key (PSK) in the CMS
